@@ -1,0 +1,59 @@
+.App{
+  min-height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#videoBackground{
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+video {
+  background: brown;
+  object-fit: cover;
+}
+
+.viewport_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  opacity: 1;
+  opacity: var(--headerOpacity);
+  transform: scale(var(--headerScale));
+}
+
+
+.circleLogo{
+  border-radius: 75%;
+  height: 15rem;
+  width: 15rem;
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#profilePic
+{
+  margin-top: -5%;
+}
+
+p {
+  font-family: 'Syncopate', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 5vw;
+  text-align: center;
+  position: absolute;
+  margin-top: 320px;
+}
